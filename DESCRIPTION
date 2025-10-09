@@ -1,0 +1,30 @@
+Type: Package
+Package: surpassAPI
+Title: Fetch assessment data from Surpass Application Programming Interface (API)
+Version: 0.0.1
+Authors@R:
+    person(
+    given = "Scottish Qualifications Authority Data and Analytics Team",
+    email = "data.analytics@sqa.org.uk",
+    role = c("aut", "cre", "cph"))
+Description: Functions to fetch SOLAR assessment data from Surpass API
+License: file LICENSE
+Imports:
+    httr2 (>= 1.1.0),
+    jsonlite (>= 1.8.9),
+    stringr (>= 1.5.1),
+    purrr (>= 1.0.2),
+    lubridate (>= 1.9.3),
+    tidyr (>= 1.3.1),
+    tidyselect (>= 1.2.1),
+    cli (>= 3.6.3),
+    janitor (>= 2.2.0)
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+VignetteBuilder: knitr
+Config/testthat/edition: 3
