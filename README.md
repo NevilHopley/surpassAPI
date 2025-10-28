@@ -5,6 +5,9 @@ surpassAPI
 
 This `surpassAPI` package contains a collection of R functions that fetch and wrangle assessment data from Surpass APIs.
 
+You can view a 15 minute video from the 2025 Surpass International Conference about this package on [YouTube.](
+https://youtu.be/iYAgIriy-kw)
+
 ## Installing
 
 You can install the latest version of this package direct from Github. Note that this method requires access to GitHub and the
